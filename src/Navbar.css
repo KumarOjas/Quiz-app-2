@@ -1,0 +1,41 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    border-radius: 0; /* Remove rounding for full-width effect */
+    width: 100%; /* Make the navbar full width */
+    position: fixed; /* Fix the navbar at the top */
+    top: 0; /* Position it at the top */
+    left: 0; /* Align it to the left */
+    z-index: 1000; /* Ensure it stays above other elements */
+}
+
+.navbar-title {
+    color: white;
+    margin: 0;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    margin: 0 15px;
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.navbar-links a:hover {
+    color: #ffcc00;
+}
+
